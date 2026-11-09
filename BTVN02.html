@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 align="center">Novell Services Login</h1>
+        <div align="center">
+            <form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="Username"> Username:</label></td>
+                            <td> <input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Password">Password: </label></td>
+                            <td><input type="password"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="City_of_Employment">City of Employment: </label></td>
+                            <td> <input type="text"</td>
+                        </tr>
+                        <tr>
+                            <td><label for="server">Web server </label></td>
+                            <td><select id="server">
+                                <option value="">Choose a server</option>
+                                <option value="1"> server 1</option>
+                                <option value="2"> server 2</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4"><label>Please specify your role: </label></td>
+                            <td>
+                                <label>
+                                    <input type="radio" name="role" value="admid" /> Admin
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="radio" name="role" value="Engineer" /> Engineer
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="radio" name="role" value="Manager" /> Manager
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="radio" name="role" value="Guest" /> Guest
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"> <label>Single Sign-on to the <br> following. </label></td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" name="Mail"/> Mail
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" name="Payroll"/> Payroll
+                                </label>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" name="Self-Service"/> Self-Service
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit">Login</button>
+                                <button type="Reset">Reset</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
